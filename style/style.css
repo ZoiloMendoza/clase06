@@ -1,0 +1,208 @@
+*
+{
+    font-family: 'sans-serif', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:400px) {
+
+    main
+    {
+        width: 100vw;
+        height: 100vh;
+        border: 7px solid black;
+        border-radius: 40px;
+        padding: 10px;
+    }
+    .main__nav
+    {
+        
+        width: 100vw;
+        height: 15vh;
+    }
+    .main__encabezado
+    {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border-bottom: 1px solid rgb(138, 133, 133);
+        width: 100vw;
+        height: 5vh;
+
+    }
+    .main__encabezado h3
+    {
+        margin-left: 10px;
+        padding-top: 10px;
+        width: 75%;
+        height: 100%;
+        
+    }
+    .main__encabezado p
+    {
+        border-radius: 50%;
+        width: 10%;
+        height: 100%;
+        
+        background-color: blue;
+    }
+    .logo__y__nav
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 60%;
+        width: 90%;
+        padding-bottom: 5px;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .nav__logo
+    {
+        margin: 10px 1px 1px 10px;
+        border-radius: 50%;
+        width: 15%;
+        height: 90%;
+        border: 5px solid rgb(185, 31, 31);
+    }
+    nav ul
+    {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+    li
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 30px;
+    }
+    li label
+    {
+        color: gray;
+        font-size: 80%;
+    }
+    li a
+    {   color: black;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    .main__infoGeral
+    {
+        padding-top: 8px;
+        padding-left: 10px;
+    }
+    .main__infoGeral label
+    {
+        display: block;
+        color: gray;
+    }
+    .infoGral__abajo
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .editPtofile
+    {
+        width: 85%;
+        height: 25px;
+        border-radius: 2px;
+        text-align: center;
+        padding-top: 4px;
+        font-weight: 600;
+        border: 1px solid black;
+    }
+    .editProfile__2
+    {
+        width: 10%;
+        height: 25px;
+        border: 1px solid black;
+        border-radius: 2px;
+        text-align: center;
+        padding-top: 4px;
+    }
+    .main__cards
+    {
+        width: 97%;
+        height: 55vh;
+        padding: 10px;
+    }
+    .cards__iconos
+    {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+    .cards__iconos div
+    {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .cards__icono
+    {
+        border-radius: 50%;
+        width: 55%;
+        height: 100%;
+        background-color: rgb(21, 71, 221);
+    }
+    .cards__contenedor
+    {
+        width: 100%;
+        height: 70vh;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-template-rows: 3fr 3fr 3fr 3fr 3fr;
+        gap: 5px;
+        
+    }
+    .card
+    {
+        
+        width: 100%;
+        height: 100%;
+        background-color: rgba(178, 170, 170, 0.425);
+        
+    }
+    footer 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: white;
+        position: relative;
+        width: 100%;
+        height: 7%;
+        border-top: 5px solid white;
+        margin-bottom: 5px;
+        
+    }
+    footer div 
+    {
+        width: 20%;
+        height: 30px;
+        
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .foooter__icono
+    {
+        border-radius: 50%;
+        width: 45%;
+        height: 100%;
+        background-color: rgb(21, 181, 217);
+    }
+}
